@@ -4,16 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Acme Rockets</title>
+    <title>Twyford Rockets</title>
     <link rel="stylesheet" href="css/style.css" />
     <script src="js/main.js" defer></script>
   </head>
 
   <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
-    <header class="bg-teal-700 text-white sticky top-0 z-10">
+    <header id="header" class="bg-purple-700 text-white sticky top-0 z-10 transition-transform duration-300 w-full">
       <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
         <h1 class="text-3xl font-medium">
-          <a href="#hero">🚀 Acme Rockets</a>
+          <a href="#hero">🚀 Twyford Rockets</a>
         </h1>
         <div>
           <button
@@ -36,9 +36,6 @@
         id="mobile-menu"
         class="absolute top-68 bg-black w-full text-5xl flex-col justify-content-center origin-top animate-open-menu hidden text-papayawhip"
       >
-        <!-- <button class="text-8xl self-end px-6">
-                &times;
-            </button> -->
         <nav
           class="flex flex-col min-h-screen items-center py-8"
           aria-label="mobile"
@@ -72,25 +69,25 @@
           <h2
             class="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white"
           >
-            We Boldy Go
+            At Twyford Rockets
             <span class="text-indigo-700 dark:text-indigo-300"
-              >Where No Rocket</span
+              >we dare to explore the unknown</span
             >
-            Has Gone Before...
+            , venturing where no rocket has gone before.
           </h2>
           <p
             class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400"
           >
-            We're building rockets for the next century today. From the moon to
-            Mars, Jupiter and beyond...
+          We're engineering the rockets of the future - today. 
+          From the Moon to Mars, Jupiter, and beyond, our journey knows no limits.
           </p>
           <p
             class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400"
           >
-            Think Acme Rockets.
+          Think innovation. Think exploration. Think Twyford Rockets.🚀
           </p>
         </article>
-        <img class="w-1/2" src="./img/rocketdab.png" alt="Rocket Dab" />
+        <img class="w-1/2" src="./img/logorocket.png" alt="Rocket Dab" />
       </section>
 
       <hr class="mx-auto bg-black dark:bg-white w-1/2" />
@@ -110,7 +107,7 @@
           <li
             class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl"
           >
-            <img src="./img/rocketman.png" alt="Explorer" class="w-1/2 mb-6" />
+            <img src="./img/rocket3.png" alt="Explorer" class="w-1/2 mb-6" />
             <h3 class="text-3xl text-center text-slate-900 dark:text-white">
               Explorer
             </h3>
@@ -129,7 +126,7 @@
             class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl"
           >
             <img
-              src="./img/rocketride.png"
+              src="./img/rocket1.png"
               alt="Adventurer"
               class="w-1/2 mb-6"
             />
@@ -151,7 +148,7 @@
             class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl"
           >
             <img
-              src="./img/rocketlaunch.png"
+              src="./img/rocket2.png"
               alt="Infinity"
               class="w-1/2 mb-6"
             />
@@ -190,15 +187,15 @@
             <p
               class="mt-2 text-left text-2xl text-white before:absolute before:top-0 before:left-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl"
             >
-              Acme has always been there for me. Their Explorer rocket arrived
-              in a wooden crate as expected. Life-long customer! A++ shopping
-              experience.
+            🚀Twyford Rockets took my coyote-chasing game to the next level! 
+            The speed, the power—unmatched. 
+            Just need to work on the landing.
             </p>
           </blockquote>
           <figcaption
             class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl"
           >
-            &#8212;Wile E. Coyote, Genius
+            &#8212; W. Coyote
           </figcaption>
         </figure>
         <figure class="my-12">
@@ -208,18 +205,15 @@
             <p
               class="mt-2 text-left text-2xl text-white before:absolute before:top-0 before:left-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl"
             >
-              The Acme Adventurer Rocket has thwarted my Illudium Q-36 Explosive
-              Space Modulator on several occassions.
-              <span class="italic">This makes me very, very angry!</span>
-              Nevertheless, K-9 and I have awarded Acme the Martian contract for
-              space exploration rockets based on Acme's quality and sturdy
-              designs.
+            🔥I strapped an Twyford Rocket to my cart, 
+            and now I deliver pizzas in under 30 seconds. 
+            Best investment ever!
             </p>
           </blockquote>
           <figcaption
             class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl"
           >
-            &#8212;Marvin The Martian &amp; K-9
+            &#8212;Daredevil Dan &amp; K-9
           </figcaption>
         </figure>
         <figure class="my-12">
@@ -229,17 +223,15 @@
             <p
               class="mt-2 text-left text-2xl text-white before:absolute before:top-0 before:left-0 before:translate-x-2 before:translate-y-2 before:transform before:font-serif before:text-9xl before:text-white before:opacity-25 before:content-['\201C'] after:absolute after:-bottom-20 after:right-0 after:-translate-x-2 after:-translate-y-2 after:transform after:font-serif after:text-9xl after:text-white after:opacity-25 after:content-['\201D'] dark:text-slate-400 sm:text-3xl"
             >
-              I knew I not only wanted &#8212;
-              <span class="italic">I needed</span> &#8212; Acme's Infinity
-              Rocket for my mission in space. Acme delivered in one day! Nothing
-              says <q class="italic">Take me to your leader</q> like Acme's
-              Infinity Rocket! 💯
+            💨I wanted a thrill, and Twyford delivered!
+            The takeoff was smooth, the mid-air experience was exhilarating, but
+            I should have read the manual about stopping.
             </p>
           </blockquote>
           <figcaption
             class="mt-2 text-right text-xl italic text-slate-500 dark:text-slate-400 sm:text-2xl"
           >
-            &#8212;Buzz Lightyear
+            &#8212; Luna Explorer 42
           </figcaption>
         </figure>
       </section>
@@ -276,31 +268,31 @@
             id="message"
             cols="30"
             rows="10"
-            placeholder="Your Message"
+            placeholder="Your message"
             required
             class="w-full text-black text-2xl sm:text-3xl p-3 rounded-xl border border-solid border-slate-900 dark:border-none"
           >
           </textarea>
           <button
-            class="bg-teal-700 hover:bg-teal-600 active:bg-teal-500 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none"
+            class="bg-purple-700 hover:bg-purple-600 active:bg-purple-500 text-white p-3 w-48 rounded-xl border border-solid border-slate-900 dark:border-none jc"
           >
             Submit
           </button>
         </form>
       </section>
     </main>
-    <footer id="footer" class="bg-teal-700 text-white text-xl">
+    <footer id="footer" class="bg-purple-700 text-white text-xl">
       <section
         class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row sm:justify-between"
       >
         <address>
-          <h2>Acme Rocket-Powered Products, Inc.</h2>
-          555 Astro Way<br />
-          Fairfield, New Jersey 12345-5555<br />
+          <h2>Twyford Rocket Products, Inc.</h2>
+          777 My Way<br />
+          Fairfield, London 66456-4324<br />
           Email:
-          <a href="mailto:inquiries@acmerockets.com">Inquires@AcmeRockets.com</a
+          <a href="mailto:inquiries@Twyfordrockets.com">Inquires@TwyfordRockets.com</a
           ><br />
-          Phone: <a href="tel:+15555555555">(555) 555-5555</a>
+          Phone: <a href="tel:+1777777">(657) 786-6666</a>
         </address>
         <nav class="hidden md:flex flex-col gap-2" aria-label="footer">
           <a href="#rockets" class="hover:opacity-90">Our Rockets</a>
@@ -308,7 +300,7 @@
           <a href="#contact" class="hover:opacity-90">Contact Us</a>
         </nav>
         <div class="flex flex-col sm:gap-2">
-          <p class="text-right">Copyright &copy; <span id="year">2022</span></p>
+          <p class="text-right">Copyright &copy; <span id="year">2025</span></p>
           <p class="text-right">All Rights Reserved</p>
         </div>
       </section>
